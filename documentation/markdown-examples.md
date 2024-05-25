@@ -83,3 +83,14 @@ This is a details block.
 ## More
 
 Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+
+```js
+export default {
+  data () {
+    return {
+      msg: 'Removed' // [!code --]
+      msg: 'Added' // [!code ++]
+    }
+  }
+}
+```
