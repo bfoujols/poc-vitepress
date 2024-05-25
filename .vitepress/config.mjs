@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "POCDOC",
   description: "Test de vitepress",
+  base: '/poc-vitepress/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
