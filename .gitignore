@@ -1,3 +1,4 @@
-doc/node_modules
-doc/.vitepress/cache
+documentation/node_modules
+documentation/.vitepress/cache
+documentation/.vitepress/dist
 .idea/**
