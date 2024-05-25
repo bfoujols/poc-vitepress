@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Directory change
-        run: cd documentation
+        run: cd docs
       - name: Checkout
         uses: actions/checkout@v4
         with:
