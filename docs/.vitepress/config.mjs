@@ -5,6 +5,7 @@ export default defineConfig({
   title: "POCDOC",
   description: "Test de vitepress",
   base: '/poc-vitepress/',
+  srcDir: 'src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -24,7 +25,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/bfoujols/poc-vitepress' }
     ]
   }
 })
